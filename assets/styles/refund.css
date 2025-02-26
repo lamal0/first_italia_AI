@@ -1,0 +1,57 @@
+.refund-policy {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #ffecf5; /* Светло-розовый фон */
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(255, 20, 147, 0.3); /* Розовая тень */
+    text-align: left;
+    border: 2px solid #ff1493; /* Яркая розовая рамка */
+}
+
+.refund-policy__title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #ff007f; /* Насыщенный розовый */
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Тень для эффекта glow */
+}
+
+.refund-policy__subheading {
+    font-size: 24px;
+    color: #ff1493; /* Ярко-розовый */
+    margin-top: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.refund-policy__text {
+    font-size: 18px;
+    color: #d10072; /* Глубокий розовый */
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.refund-policy__list {
+    padding-left: 25px;
+    margin-bottom: 20px;
+}
+
+.refund-policy__list li {
+    font-size: 18px;
+    color: #d10072; /* Глубокий розовый */
+    margin-bottom: 8px;
+    font-weight: bold;
+    list-style-type: "💖 "; /* Добавление розового сердечка перед элементами списка */
+}
+
+.refund-policy__update {
+    font-size: 16px;
+    color: #c71585; /* Фиолетово-розовый */
+    text-align: center;
+    margin-top: 25px;
+    font-style: italic;
+    font-weight: bold;
+}

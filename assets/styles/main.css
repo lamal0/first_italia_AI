@@ -760,6 +760,62 @@ a {
     font-size: 1.2rem;
   }
 }
+
+
+.course-price {
+  text-align: center;
+  padding: 45px 25px;
+  background-color: #ffecf5; /* Светло-розовый фон */
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(255, 20, 147, 0.3); /* Розовая тень */
+  max-width: 600px;
+  margin: 40px auto;
+  border: 2px solid #ff1493; /* Яркая розовая рамка */
+}
+
+.course-price__title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ff007f; /* Насыщенный розовый */
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px rgba(255, 0, 128, 0.5); /* Glow-эффект */
+}
+
+.course-price__amount {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ff1493; /* Ярко-розовый */
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #ff007f, #ff69b4); /* Градиент */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Градиентный текст */
+}
+
+.course-price__text {
+  font-size: 18px;
+  color: #d10072; /* Глубокий розовый */
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.course-price__link {
+  color: #ff1493;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.course-price__link:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #ff69b4;
+  color: #ff007f;
+}
+
+
+
 .features {
   background-color: #ffe6f2;
   padding: 100px 0;
